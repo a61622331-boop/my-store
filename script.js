@@ -37,3 +37,8 @@ function showCart() {
 function closeCart() {
   cartModal.style.display = 'none';
 }
+const products = [
+  { name: "Samsung Galaxy M35", price: 55000, img: "https://via.placeholder.com/200?text=M35" },
+  { name: "Xiaomi Redmi Note 13", price: 45000, img: "https://via.placeholder.com/200?text=Redmi" },
+  { name: "Realme GT Neo", price: 75000, img: "https://via.placeholder.com/200?text=Realme" }
+];
